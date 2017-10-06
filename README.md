@@ -4,7 +4,7 @@ This application exports all statistics from The-Grid and outputs it in a format
 ## Usage
 The script takes the API-key from The-Grid as a mandatory argument.  
 
-## Optional ommand arguments
+## Optional command arguments
 | Short   | Long          | Description                       |
 | ------- | ------------- | --------------------------------- |
 | -a DATE | --after DATE  | Only list entries newer than DATE |
@@ -16,7 +16,7 @@ DATE shall have format: YYYY-MM-DD
 URL shall have format: http(s)://foo.bar/api?key=  
 API key will be appended to the URL.
 
-## Example usage
+## Usage examples
 To send the data ready for import to paste buffer:  
 ./thegrid2agentstats.py MY-SECRET-API-KEY | xclip  
   
